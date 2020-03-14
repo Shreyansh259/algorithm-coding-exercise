@@ -50,6 +50,6 @@ Output:
  ADP - Lifion - Product - 3000000
  ADP - Redbox - Frontend - 5000000
  ADP - Lifion - Platform - Metadata - 10000000
- ADP - Lifion - Platform - Persistence - 5m
+ ADP - Lifion - Platform - Persistence - 5000000
  ```
  
