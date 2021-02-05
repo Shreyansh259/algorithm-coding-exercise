@@ -17,19 +17,6 @@ const longestPalindrom = str => {
       high++;
     }
   }
-  for (let i = 1; i < str.length; i++) {
-    low = i - 1;
-    high = i + 1;
-    while (low >= 0 && high < str.length && str[low] === str[high]) {
-      let len = high - low + 1;
-      if (len > maxlength) {
-        maxlength = len;
-        start = low;
-      }
-      low--;
-      high++;
-    }
-  }
   let end = start + maxlength;
   return str.substring(start, end);
 };
